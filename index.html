@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roxx Media Group | Pro Audio Engineering</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #0a0a0a; scroll-behavior: smooth; }
+        .hero-bg {
+            background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), 
+                        url('https://images.unsplash.com/photo-1590602847861-f357a9332bbc?auto=format&fit=crop&q=80&w=2000');
+            background-size: cover; background-position: center;
+        }
+        .gold-text { color: #FFD700; }
+        .gold-bg { background-color: #FFD700; }
+    </style>
+</head>
+<body class="text-gray-100">
+
+    <nav class="sticky top-0 z-50 bg-black/90 backdrop-blur-md border-b border-zinc-800">
+        <div class="flex justify-between items-center p-5 max-w-7xl mx-auto">
+            <div class="text-xl font-black tracking-widest gold-text">ROXX MEDIA GROUP</div>
+            <div class="hidden md:flex space-x-8 text-sm font-bold uppercase tracking-wider">
+                <a href="#about" class="hover:text-yellow-500 transition">About</a>
+                <a href="#services" class="hover:text-yellow-500 transition">Services</a>
+                <a href="#gear" class="hover:text-yellow-500 transition">The Gear</a>
+                <a href="#book" class="gold-bg text-black px-4 py-2 rounded hover:bg-yellow-400">Book Session</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero-bg min-h-screen flex items-center justify-center text-center px-6">
+        <div class="max-w-4xl">
+            <h1 class="text-6xl md:text-8xl font-black mb-6 uppercase italic">Elite <span class="gold-text">Sound.</span></h1>
+            <p class="text-xl md:text-2xl text-gray-300 mb-10 font-light tracking-wide">Industry-Standard Mixing & Mastering by a FIRST Institute Top-Tier Engineer.</p>
+            <a href="#book" class="inline-block gold-bg text-black font-black px-10 py-5 rounded-sm hover:scale-105 transition-transform uppercase tracking-tighter">Secure Your Date</a>
+        </div>
+    </header>
+
+    <section id="about" class="py-24 bg-zinc-900 px-6">
+        <div class="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+            <div>
+                <h2 class="text-4xl font-black mb-6 uppercase">The Engineer</h2>
+                <div class="w-20 h-1 gold-bg mb-6"></div>
+                <p class="text-gray-300 text-lg leading-relaxed mb-4">
+                    Founded on technical excellence and a passion for sonic clarity, Roxx Media Group is led by a specialist who doesn't just "mix"—we craft experiences. 
+                </p>
+                <p class="text-gray-300 text-lg leading-relaxed">
+                    I am a 2023 graduate of **FIRST Institute (Florida Institute of Recording and Sound Technology)**, where I finished at the **top of my class**. This elite training in the heart of Florida's recording scene has equipped me with the surgical precision required to compete at the highest levels of the music industry.
+                </p>
+            </div>
+            <div class="bg-black p-8 border border-zinc-800 rounded-lg shadow-2xl">
+                <h4 class="gold-text font-bold uppercase mb-2">Accolades</h4>
+                <p class="text-2xl font-bold mb-4 italic">"Top of Class Honors"</p>
+                <p class="text-gray-500 text-sm italic">— FIRST Institute, 2023</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="py-24 px-6 max-w-7xl mx-auto text-center">
+        <h2 class="text-4xl font-black mb-16 uppercase">Services</h2>
+        <div class="grid md:grid-cols-3 gap-1">
+            <div class="border border-zinc-800 p-10 hover:bg-zinc-900 transition cursor-default">
+                <h3 class="text-2xl font-bold mb-4 gold-text">Recording</h3>
+                <p class="text-gray-400">High-fidelity vocal and instrument tracking utilizing the Neumann TLM 103 for that 'expensive' radio sound.</p>
+            </div>
+            <div class="border border-zinc-800 p-10 hover:bg-zinc-900 transition cursor-default">
+                <h3 class="text-2xl font-bold mb-4 gold-text">Mixing</h3>
+                <p class="text-gray-400">Professional balancing, surgical EQ, and dynamic processing. We bring space, depth, and energy to your stems.</p>
+            </div>
+            <div class="border border-zinc-800 p-10 hover:bg-zinc-900 transition cursor-default">
+                <h3 class="text-2xl font-bold mb-4 gold-text">Mastering</h3>
+                <p class="text-gray-400">The final wall of sound. Optimized for LUFS standards across Spotify, Apple Music, and YouTube.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="gear" class="py-24 bg-black px-6">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-center text-4xl font-black mb-16 uppercase italic">The Arsenal</h2>
+            <div class="grid md:grid-cols-2 gap-12">
+                <div class="space-y-4">
+                    <h3 class="text-xl font-bold border-b border-zinc-700 pb-2 gold-text uppercase">Hardware</h3>
+                    <ul class="text-gray-400 space-y-2">
+                        <li>• Interface: <span class="text-white">Universal Audio Apollo Twin</span></li>
+                        <li>• Microphones: <span class="text-white">Neumann TLM 103, AKG C214</span></li>
+                        <li>• Monitors: <span class="text-white">Yamaha HS5 Studio Monitors</span></li>
+                        <li>• Monitoring: <span class="text-white">Beyerdynamic Headphones</span></li>
+                    </ul>
+                </div>
+                <div class="space-y-4">
+                    <h3 class="text-xl font-bold border-b border-zinc-700 pb-2 gold-text uppercase">Software & Plugins</h3>
+                    <ul class="text-gray-400 space-y-2">
+                        <li>• Autotune: <span class="text-white">Antares Auto-Tune Pro</span></li>
+                        <li>• Processing: <span class="text-white">FabFilter, Slate Digital, Softube</span></li>
+                        <li>• Bundles: <span class="text-white">Waves, Plugin Alliance</span></li>
+                        <li>• Workstation: <span class="text-white">Industry Standard DAWs</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="book" class="py-24 bg-zinc-900 px-6 text-center">
+        <h2 class="text-4xl font-black mb-6 uppercase">Book Your Session</h2>
+        <p class="text-gray-400 mb-12 max-w-2xl mx-auto">Ready to start? Use the calendar below to select a date. A 50% deposit is required to secure your slot.</p>
+        
+        <div class="bg-white rounded-lg overflow-hidden shadow-2xl max-w-4xl mx-auto">
+            <div class="p-8 text-black font-bold border-b">CALENDAR INTEGRATION</div>
+            <div class="aspect-video flex items-center justify-center bg-gray-100 text-gray-500 px-10 py-20">
+                <div>
+                    <p class="mb-4 text-black">To activate bookings: Create a free account at <strong>Calendly.com</strong></p>
+                    <p class="text-sm">Once you have your Calendly link, replace this box with your "Embed Code."</p>
+                </div>
+            </div>
+        </div>
+        <div class="mt-12 flex justify-center gap-8 opacity-50 grayscale">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg" class="h-8" alt="Paypal">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/b/b7/MasterCard_Logo.svg" class="h-8" alt="Mastercard">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Visa_Inc._logo.svg" class="h-8" alt="Visa">
+        </div>
+    </section>
+
+    <footer class="py-12 border-t border-zinc-800 text-center text-gray-600 text-xs tracking-widest uppercase">
+        &copy; 2026 Roxx Media Group | Alumnus of First Institute Florida
+    </footer>
+
+</body>
+</html>
